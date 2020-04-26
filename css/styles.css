@@ -31,7 +31,7 @@ a {
 .big-header {
   color: white;
   font-weight: 900;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   text-align: left;
 }
@@ -90,7 +90,7 @@ a {
   color: white;
   font-weight: bold;
   line-height: 1.5;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   /*padding: 0 50px;*/
 }
 
@@ -180,10 +180,14 @@ a {
 }
 
 /********************************Media Queries********************************/
-
 @media (max-width: 900px) {
   #pricing .container-fluid {
     padding: 7% 15%;
+  }
+
+  #heading .container-fluid{
+    padding: 0;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -191,13 +195,14 @@ a {
     margin: 5%;
   }
 
-  .title-text {
+  .big-header {
     text-align: center;
   }
 
   .rotated {
     transform: rotate(0);
     position: static;
-    margin: 10%;
+    margin: 3%;
+    width: 99%;
   }
 }
